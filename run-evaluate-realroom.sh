@@ -3,7 +3,7 @@
 
 model_script_path=
 model_dir=
-set_name=
+set_name=TIMIT
 n_src=
 chunksize=
 parallel=0
