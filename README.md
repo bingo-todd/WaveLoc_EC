@@ -18,7 +18,7 @@ code for the paper "An end-to-end binaural sound localization model based on the
 - [RealRoomBRIRs](https://github.com/IoSR-Surrey/RealRoomBRIRs)
 
 
-## Run Steps
+## How to run
 ### Preparing training and validating dataset
 #### Synthsizing BRIRs
 ```shell
