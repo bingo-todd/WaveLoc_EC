@@ -7,9 +7,10 @@ code for the paper "An end-to-end binaural sound localization model based on the
 - python 3.7
 - tensorflow-gpu 2.4
 - [gammatone](https://github.com/detly/gammatone): implementation of Gammatone filters
-- [BasicTools](https://github.com/bingo-todd/BasicTools): a collection of scripts for some basic function, such as plotting and signal processing. 
-- [LocTools](https://github.com/bingo-todd/LocTools): scripts for processing log files of localization.
+- [BasicTools](https://github.com/bingo-todd/BasicTools): a collection of scripts for some basic operations, such as plotting, reading and writing wave files. 
+- [LocTools](https://github.com/bingo-todd/LocTools): scripts for processing log of localization.
 - [RoomSimulator](https://github.com/bingo-todd/RoomSimulator): implementation of Image model for BRIR simulation.
+
 
 ### Dataset
 - TIMIT[^TIMIT]
@@ -23,7 +24,7 @@ code for the paper "An end-to-end binaural sound localization model based on the
 cd syn_BRIRs
 python syn_BRIRs.py
 ```
-#### Generating training and validating dataset
+#### Generating training and validating datasets
 ```shell
 cd gen_dataset
 python gen_train_valid_dataset.py
@@ -88,4 +89,4 @@ bash run-evaluate-realroom.sh --model_script WaveLoc_EC.py \
 	--chunksize 1  # number of successive frames of model output to be averaged 
 ```
 
-[^TIMIT]:need to convert \*.WAV  to \*.wav
+[^TIMIT]: the suffix of audio files in TIMIT are ".WAV". Convert \*.WAV  to \*.wav before generating any dataset.
