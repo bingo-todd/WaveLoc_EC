@@ -2,8 +2,6 @@
 
 code for the paper "An end-to-end binaural sound localization model based on the equalization and cancellation theory", which has been accepted by the 152 AES conference.
 
-***if there is any problem, please contact me***
-
 ## Requirements
 ### python environment
 - python 3.7
